@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <!-- Menu de Navegacion -->
     <header class="cabecera">
         <div class="logo">
             <img src="logo.jpeg" alt="Logo Pizza">
@@ -21,20 +22,99 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
-            <button class="boton-rojo">Pedir ahora</button>
+            <button class="boton-naranja">Pedir ahora</button>
         </div>
     </header>
 
     <main>
+        <!-- Introduccion del Menu -->
+        <section class="intro-servicios">
+            <div class="intro-servicios-texto">
+                <h1>Nuestro Menú</h1>
+                <p>Explora todas las opciones que Pizza Brava tiene para ti. Desde nuestras pizzas clásicas hasta las creaciones especiales del chef, cada platillo está preparado con ingredientes frescos y cocinado en horno de leña auténtico.</p>
+            </div>
+            <div class="intro-servicios-imagen">
+                <img src="principal.jpg" alt="Nuestras Pizzas">
+            </div>
+        </section>
+
+        <!-- Separador Decorativo -->
+        <div class="separador">
+            <div class="separador-puntos">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <!-- Categorias del Menu -->
+        <section class="categorias">
+            <button class="categoria-btn">Pizzas Clásicas</button>
+            <button class="categoria-btn">Pizzas Especiales</button>
+            <button class="categoria-btn">Complementos</button>
+            <button class="categoria-btn">Bebidas</button>
+            <button class="categoria-btn">Postres</button>
+        </section>
+
+        <!-- Especialidades Detalladas -->
+        <section class="grid-servicios">
+            <!-- Pizza Artesanal -->
+            <div class="bloque-servicio">
+                <img src="principal.jpg" alt="Pizzas Clasicas">
+                <div class="bloque-servicio-texto">
+                    <h3>Pizzas Clásicas</h3>
+                    <p>Margherita, Pepperoni, Hawaiana y Cuatro Quesos. Las recetas tradicionales italianas que nunca pasan de moda, preparadas con masa madre de 48 horas.</p>
+                    <a href="#">Desde $12.00</a>
+                </div>
+            </div>
+            <!-- Pizzas Especiales -->
+            <div class="bloque-servicio">
+                <img src="principal.jpg" alt="Pizzas Especiales">
+                <div class="bloque-servicio-texto">
+                    <h3>Pizzas Especiales del Chef</h3>
+                    <p>Brava Especial, BBQ Chicken, Vegetariana Supreme y Mexicana Picante. Creaciones exclusivas del chef con combinaciones únicas de sabores.</p>
+                    <a href="#">Desde $16.00</a>
+                </div>
+            </div>
+            <!-- Complementos -->
+            <div class="bloque-servicio">
+                <img src="principal.jpg" alt="Complementos">
+                <div class="bloque-servicio-texto">
+                    <h3>Complementos y Entrantes</h3>
+                    <p>Breadsticks con queso, alitas BBQ, ensalada César, aros de cebolla y nachos con queso fundido. El acompañamiento perfecto para tu pizza.</p>
+                    <a href="#">Desde $5.00</a>
+                </div>
+            </div>
+            <!-- Postres -->
+            <div class="bloque-servicio">
+                <img src="principal.jpg" alt="Postres">
+                <div class="bloque-servicio-texto">
+                    <h3>Postres Italianos</h3>
+                    <p>Tiramisú clásico, panna cotta de vainilla, cannoli siciliano relleno de ricotta y brownie caliente con helado artesanal de chocolate.</p>
+                    <a href="#">Desde $4.00</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Separador Decorativo -->
+        <div class="separador">
+            <div class="separador-puntos">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <!-- Tabla Completa de Pizzas -->
         <section class="contenedor-tabla">
-            <h2>Nuestro Menu de Pizzas</h2>
-            <p>Listado completo de nuestras pizzas artesanales.</p>
+            <h2>Catálogo Completo de Pizzas</h2>
+            <p>Lista detallada con ingredientes y precios de todas nuestras pizzas.</p>
             <table>
                 <thead>
                     <tr>
                         <th>Imagen</th>
-                        <th>Producto</th>
-                        <th>Descripcion</th>
+                        <th>Pizza</th>
+                        <th>Ingredientes</th>
                         <th>Precio</th>
                     </tr>
                 </thead>
@@ -42,25 +122,25 @@
                     <tr>
                         <td><img src="principal.jpg" alt="Margherita"></td>
                         <td>Margherita</td>
-                        <td>Tomate, mozzarella y albahaca fresca.</td>
+                        <td>Salsa de tomate, mozzarella fresca y albahaca.</td>
                         <td>$12.00</td>
                     </tr>
                     <tr>
                         <td><img src="principal.jpg" alt="Pepperoni"></td>
                         <td>Pepperoni</td>
-                        <td>Especialidad con pepperoni premium.</td>
+                        <td>Mozzarella, pepperoni premium y orégano.</td>
                         <td>$15.00</td>
                     </tr>
                     <tr>
                         <td><img src="principal.jpg" alt="Brava Especial"></td>
                         <td>Brava Especial</td>
-                        <td>Pepperoni, miel picante y mozzarella.</td>
+                        <td>Pepperoni, miel picante, jalapeños y mozzarella.</td>
                         <td>$18.00</td>
                     </tr>
                     <tr>
                         <td><img src="principal.jpg" alt="Hawaiana"></td>
                         <td>Hawaiana</td>
-                        <td>Pina, jamon y queso fundido.</td>
+                        <td>Piña caramelizada, jamón ahumado y queso fundido.</td>
                         <td>$14.00</td>
                     </tr>
                     <tr>
@@ -72,27 +152,28 @@
                     <tr>
                         <td><img src="principal.jpg" alt="BBQ Chicken"></td>
                         <td>BBQ Chicken</td>
-                        <td>Pollo a la parrilla con salsa barbacoa.</td>
+                        <td>Pollo a la parrilla, salsa BBQ, cebolla morada y cilantro.</td>
                         <td>$17.00</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
+        <!-- Tabla de Bebidas -->
         <section class="contenedor-tabla">
             <h2>Bebidas</h2>
             <table>
                 <thead>
                     <tr>
                         <th>Bebida</th>
-                        <th>Descripcion</th>
+                        <th>Descripción</th>
                         <th>Precio</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Refresco</td>
-                        <td>Coca-Cola, Pepsi, Sprite</td>
+                        <td>Coca-Cola, Pepsi, Sprite, Fanta</td>
                         <td>$2.50</td>
                     </tr>
                     <tr>
@@ -101,30 +182,33 @@
                         <td>$1.50</td>
                     </tr>
                     <tr>
-                        <td>Jugo natural</td>
-                        <td>Naranja, limon o mixto</td>
+                        <td>Jugo Natural</td>
+                        <td>Naranja, limón, mixto o de temporada</td>
                         <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Limonada de la Casa</td>
+                        <td>Limonada con hierbabuena y miel de abeja</td>
+                        <td>$3.50</td>
                     </tr>
                 </tbody>
             </table>
         </section>
-
-        <section style="padding: 50px; text-align: center;">
-            <img src="principal.jpg" alt="Imagen Menu" style="max-width: 600px; border-radius: 10px;">
-        </section>
     </main>
 
+    <!-- Pie de Pagina -->
     <footer class="footer">
         <div class="grid-footer">
             <div class="col-footer">
                 <h4>Pizza Brava</h4>
-                <p>La autentica experiencia italiana en tu ciudad.</p>
+                <p>La auténtica experiencia italiana en tu ciudad.</p>
             </div>
             <div class="col-footer">
-                <h4>Navegacion</h4>
+                <h4>Navegación</h4>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
@@ -139,7 +223,7 @@
             </div>
         </div>
         <div class="barra-final">
-            <p>Desarrollado por Oliver Alexander Ascencio Pleitez y Andrea Sarai Diaz Recinos</p>
+            <p>© 2024 Pizza Brava. Desarrollado por Oliver Alexander Ascencio Pleitez y Andrea Sarai Diaz Recinos</p>
         </div>
     </footer>
 </body>
