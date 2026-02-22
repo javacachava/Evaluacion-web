@@ -1,11 +1,5 @@
-/* ===================== */
-/* IMPORTACION DE FUENTE */
-/* ===================== */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap');
 
-/* ===================== */
-/* ANIMACIONES           */
-/* ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap');
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -36,10 +30,6 @@
     0%, 100% { box-shadow: 0 0 20px rgba(230, 81, 0, 0.3); }
     50% { box-shadow: 0 0 40px rgba(230, 81, 0, 0.6); }
 }
-
-/* ===================== */
-/* ESTILOS GENERALES     */
-/* ===================== */
 * {
     box-sizing: border-box;
 }
@@ -77,10 +67,6 @@ h1, h2, h3, h4 {
     background: rgba(230, 81, 0, 0.5);
     color: white;
 }
-
-/* ===================== */
-/* HEADER / CABECERA     */
-/* ===================== */
 .cabecera {
     display: flex;
     justify-content: space-between;
@@ -171,9 +157,6 @@ h1, h2, h3, h4 {
     width: 60%;
 }
 
-/* ===================== */
-/* BOTONES               */
-/* ===================== */
 .boton-naranja {
     background: linear-gradient(135deg, #e65100 0%, #ff6d00 50%, #e65100 100%);
     background-size: 200% 200%;
@@ -263,9 +246,6 @@ h1, h2, h3, h4 {
     box-shadow: 0 8px 30px rgba(255, 255, 255, 0.25);
 }
 
-/* ===================== */
-/* BANNER / HERO INICIO  */
-/* ===================== */
 .banner {
     display: flex;
     align-items: center;
@@ -334,9 +314,6 @@ h1, h2, h3, h4 {
     box-shadow: 0 30px 80px rgba(230, 81, 0, 0.25), 0 0 0 1px rgba(230, 81, 0, 0.2);
 }
 
-/* ===================== */
-/* SECCION NOSOTROS      */
-/* ===================== */
 .nosotros {
     display: flex;
     align-items: center;
@@ -428,9 +405,7 @@ h1, h2, h3, h4 {
     margin: 5px 0 0;
 }
 
-/* ===================== */
-/* SECCION GRIS / TARJETAS */
-/* ===================== */
+/* TARJETAS */
 .seccion-gris {
     background: linear-gradient(180deg, #0d0d0d 0%, #161616 50%, #0d0d0d 100%);
     padding: 100px 50px;
@@ -512,9 +487,6 @@ h1, h2, h3, h4 {
     font-size: 20px;
 }
 
-/* ===================== */
-/* FRANJA NARANJA PROMO  */
-/* ===================== */
 .franja-naranja {
     background: linear-gradient(135deg, #bf360c 0%, #e65100 30%, #ff6d00 60%, #e65100 100%);
     color: white;
@@ -562,9 +534,6 @@ h1, h2, h3, h4 {
     opacity: 0.9;
 }
 
-/* ===================== */
-/* ICONOS INFORMATIVOS   */
-/* ===================== */
 .iconos-informativos {
     display: flex;
     justify-content: center;
@@ -621,9 +590,6 @@ h1, h2, h3, h4 {
     line-height: 1.7;
 }
 
-/* ===================== */
-/* FOOTER                */
-/* ===================== */
 .footer {
     background: linear-gradient(180deg, #0a0a0a, #050505);
     color: #777777;
@@ -685,9 +651,7 @@ h1, h2, h3, h4 {
     color: #555555;
 }
 
-/* ===================== */
-/* TABLAS PARA MENU      */
-/* ===================== */
+/* tablas del menu      */
 .contenedor-tabla {
     padding: 60px 50px;
     background-color: #0d0d0d;
@@ -763,9 +727,7 @@ table td img:hover {
     transform: scale(1.15);
 }
 
-/* ===================== */
-/* FORMULARIO CONTACTO   */
-/* ===================== */
+/* formulario de contacto */
 .contenedor-formulario {
     padding: 80px 50px;
     max-width: 650px;
@@ -852,9 +814,6 @@ textarea {
     transform: translateY(0);
 }
 
-/* ===================== */
-/* PAGINA SERVICIOS/MENU */
-/* ===================== */
 .intro-servicios {
     display: flex;
     align-items: center;
@@ -1027,10 +986,7 @@ textarea {
     transform: translateX(5px);
     text-shadow: none;
 }
-
-/* ===================== */
-/* PAGINA BLOG           */
-/* ===================== */
+/* PAGINA BLOG */
 .blog-hero {
     background: linear-gradient(135deg, #bf360c 0%, #e65100 35%, #ff6d00 65%, #e65100 100%);
     color: white;
@@ -1365,10 +1321,7 @@ textarea {
     line-height: 1.8;
     font-weight: 300;
 }
-
-/* ===================== */
-/* SCROLLBAR PERSONALIZADO */
-/* ===================== */
+/* SCROLLBAR*/
 ::-webkit-scrollbar {
     width: 8px;
 }
